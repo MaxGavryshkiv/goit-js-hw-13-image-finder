@@ -31,6 +31,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
 }
 .photo-card {
+  min-height: 125px;
   max-width: 300px;
   background-color: white;
   border-radius: 5%;

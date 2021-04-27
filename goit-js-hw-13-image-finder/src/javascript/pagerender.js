@@ -69,7 +69,7 @@ function loadMoreBttnMarkup() {
 }
 // Функция скролинга страницы
 function windowsScrolling() {
-  const totalScrollHeight = document.body.scrollHeight;
+  const totalScrollHeight = picturesListDivRef.scrollHeight;
 
   window.scrollTo({
     top: totalScrollHeight,
